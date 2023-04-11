@@ -1,0 +1,60 @@
+body{
+    font-family: 'Gill Sans';
+    background-color: rgb(192,192,192);
+    /* background: linear-gradient(8deg, rgba(232,225,163,1) 0%, rgba(232,225,163,1) 0%, rgba(13,48,78,1) 21%); */
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    padding-bottom: 7.9%;
+    color:rgb(25,22,13);
+}
+.hd{
+    float:start;
+    height:5%;
+    background-color: rgb(198, 140, 95);
+    font-size:270%;
+    margin:-9px -9px 50px -9px;
+    border-radius:3px;
+    padding-left:1%;
+}
+.menu{
+    background-color: rgba(248, 226, 186, 0.61);
+    margin:auto;
+    width:20%;
+    max-width: 280px;
+    min-width: 110px;
+    border: rgb(124,124,136) solid 2px;
+    border-width: 2px;
+    border-radius: 7px;
+    display:flex;
+    max-height: 450px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+.footer{
+    /* float:bottom; */
+    background-color: rgb(129,120,111);
+    max-height:50px;
+}
+body{
+    background-image: url("/imaj/carrdpicfinish.png");
+    background-size:cover;
+}
+ul > li{
+    font-size: large;
+    display:flex;
+    list-style:none;
+    justify-content: space-evenly;
+    padding-top:25%;
+    padding-bottom: 25%;
+    padding-left:5%;
+    margin-left:-30%;
+}
+a:any-link{
+    text-decoration: none;
+    color: rgb(25,22,13);
+}
+a:hover{
+    color: rgb(73,73,96);
+}
