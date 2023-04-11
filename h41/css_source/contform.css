@@ -1,0 +1,30 @@
+body{
+    background-image: url(/imaj/formimg.jpg);
+
+}
+h1{
+    padding-left: 8%;
+    font-family: "Gajraj One";
+    background-color: rgba(128, 128, 128, 0.664);
+}
+.container{
+    text-align: left;
+    margin:auto;
+    padding-bottom: 4px;
+    background-color: rgba(128, 128, 128, 0.37);
+    max-width: 30%;
+    border-radius: 15px;
+}
+label{
+    margin-left:10px;
+}
+button{
+
+}
+textarea{
+    margin-left:60px;
+}
+input[type=text],[type=submit],[type=email]{
+    border-radius: 6px;
+    margin-left:60px;
+}
